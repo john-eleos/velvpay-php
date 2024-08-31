@@ -1,8 +1,5 @@
 # Introduction
 [![Build Status](https://travis-ci.com/digikraaft/velvpay-php.svg?branch=master)](https://travis-ci.com/digikraaft/velvpay-php)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/digikraaft/velvpay-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/digikraaft/velvpay-php/?branch=master)
-[![Code Intelligence Status](https://scrutinizer-ci.com/g/digikraaft/velvpay-php/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
-[![Total Downloads](https://poser.pugx.org/digikraaft/velvpay-php/downloads)](//packagist.org/packages/digikraaft/velvpay-php)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
