@@ -113,7 +113,7 @@ A list of the available methods are documented below:
 #### CashCraft
 * `confirmFee() : Array|Object`
 * `details(string $transactionId) : Array|Object`
-* `initiate(string $amount, string $email, string $beneficiaries, string $description, int $validityTime = 20, bool $isNaira = false) : Array|Object`
+* `initiate(string $amount, string $email, array $beneficiaries, string $description, int $validityTime = 20, bool $isNaira = false) : Array|Object`
 * `manualResolve(string $transactionId) : Array|Object`
 
 #### Payment
