@@ -1,5 +1,4 @@
 # Introduction
-[![Build Status](https://travis-ci.com/digikraaft/velvpay-php.svg?branch=master)](https://travis-ci.com/digikraaft/velvpay-php)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
