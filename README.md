@@ -118,6 +118,7 @@ A list of the available methods are documented below:
 
 #### Payment
 * `createVirtualAccount(int|float $amount, string $customerEmail, int $validityTime = 20, bool $isNaira = false) : Array|Object`
+* `initiatePayment( int|float $amount, bool $isNaira = false, string $title, string $description, bool $chargeCustomer = false, string $postPaymentInstructions) : Array|Object`
 * `details(array $parameters) : Array|Object`
 * `requestFund(int|float $amount, string $type, string $senderEmail, string $receiverEmail, string $paymentName, string $description, array $metadata = null, string $idempotencykey = null, bool $isNaira = false) : Array|Object`
 * `requestFundStatus(string $reference) : Array|Object`
