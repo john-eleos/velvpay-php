@@ -38,6 +38,47 @@ class Payment extends ApiResource
         ]);
     }
 
+
+
+    /**
+     *
+     * @link https://documenter.getpostman.com/view/36526309/2sA3XY7J6K#b367895b-9365-42aa-b3fb-7e1323c6c0a6
+     *
+     * @param int|float $amount
+     * @param bool $isNaira
+     * @param string $title
+     * @param string $description
+     * @param bool $chargeCustomer
+     * @param string $postPaymentInstructions
+     * @param string $redirectUrl
+     * @return array|object
+     * @throws InvalidArgumentException
+     */
+    public static function initiatePayment(
+        int|float $amount,
+        bool $isNaira = false,
+        string $title,
+        string $description,
+        string $redirectUrl,
+        bool $chargeCustomer = false,
+        string $postPaymentInstructions
+    ): array|object
+    {
+        return static::staticRequest('POST', "service/payment/initiate", [
+            'amount' => $amount,
+            'isNaira' => $isNaira,
+            'title' => $title,
+            'description' => $description,
+            'redirectUrl' => $redirectUrl,
+            'chargeCustomer' => $chargeCustomer,
+            'postPaymentInstructions' => $postPaymentInstructions,
+        ]);
+    }
+
+
+
+
+
     /**
      * @param array $parameters
      * @return array|object
